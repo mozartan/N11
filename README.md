@@ -49,6 +49,7 @@ Rapor almadan projeyi çalıştırmak için en sol köşede bulunan Project sekm
 N11<src<test<java<com.N11<runners<CukesRunner sayfası ana ekranda açılır. 
 Açılan sayfada public class ın yanında yer alan yeşil run kısmına basılarak program çalıştırılır.
 
+Test senoryaları N11<src<test<resources<features<N11.feature ayrıntılı görülebilir.
 
 ## Authors
 
