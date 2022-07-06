@@ -51,6 +51,35 @@ Açılan sayfada public class ın yanında yer alan yeşil run kısmına basıla
 
 Test senoryaları N11<src<test<resources<features<N11.feature ayrıntılı görülebilir.
 
+# In this Project, the N11 Favorite Product Scenario was tested.
+
+- The www.n11.com site opens.
+- Check that the main page is opened.
+- Login to the site.
+- The login process is checked.
+- The word iphone is searched.
+- It is checked that the word iphone is searched.
+- The 2nd page opens from the search results page.
+- It is checked that the 2nd page is opened.
+- The 3rd product on the page is added to favourites.
+- My account; Go to My Favorites / My Lists page.
+- Check that the "My Favorites" page is opened.
+- The added product is deleted from the favorites and the deletion process is checked.
+- Member logout process is done.
+
+# Required Software and Tools
+This code is prepared in IntelliJ IDEA IDE. In addition, the language used is JAVA 8 and above. Maven 11 Build tool is used.
+
+# Installing the program
+HTTPS is copied from the green code section on the program page opened in Githup. In IntelliJ program, File<New<Project from Version Control is selected. On the page that opens, the copied HTTPS is pasted into the URL part. By clicking the Clone button, the project is loaded into the IntelliJ program. After the project is loaded, the updates are downloaded by clicking Download Sources and/or Documents (Underlined Down Arrow icon) from the maven tab in the far right corner of the page that opens.
+
+# Running the Test
+In order to run the project and generate an HTML report, N11<Lifecycle<clean is selected from the maven tab in the far right corner. Then N11<Lifecycle<install is selected. Finally, the project is run by selecting N11<Lifecycle<verify. After the project is completed, under the Project tab in the far left corner, right click on N11<target<cucumber-html-repots<overview-features.html and select Open In < Browsers < Chrome (Firefox, Safari, ..). In the browser, the entire view of the project, including the screnshots, is included in the report as HTML.
+
+To run the project without getting a report, N11<src<test<java<com.N11<runners<CukesRunner page is opened on the main screen under the Project tab in the far left corner. The program is run by pressing the green run part next to the public class on the page that opens.
+
+Test scenarios N11<src<test<resources<features<N11.feature can be viewed in detail.
+
 ## Authors
 
 * **Mustafa Özartan** - *Initial work* - [mozartan](https://github.com/mozartan)
